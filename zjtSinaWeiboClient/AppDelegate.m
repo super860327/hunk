@@ -19,6 +19,7 @@
 
 - (void)dealloc
 {
+    NSLog(@"test");
     [_window release];
     [_tabBarController release];
     [super dealloc];
